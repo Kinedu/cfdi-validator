@@ -1,0 +1,38 @@
+{
+    "name": "kinedu/cfdi-validator",
+    "description": "",
+    "homepage": "https://github.com/Kinedu/cfdi-xml",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Kinedu",
+        "cfdi",
+        "sat"
+    ],
+    "authors": [
+        {
+            "name": "Orlando Charles",
+            "email": "orlando@kinedu.com",
+            "homepage": "https://orlandocharles.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kinedu\\CfdiValidator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kinedu\\CfdiValidator\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
