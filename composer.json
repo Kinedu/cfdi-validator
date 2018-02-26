@@ -1,6 +1,6 @@
 {
     "name": "kinedu/cfdi-validator",
-    "description": "",
+    "description": "Librería para validar un Comprobante Fiscal Digital por Internet (CFDI)",
     "homepage": "https://github.com/Kinedu/cfdi-xml",
     "type": "library",
     "license": "MIT",
